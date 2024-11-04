@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4B8F8C; /* Soft teal */
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+nav {
+    background-color: #556B2F; /* Olive green */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+article {
+    background-color: #B2DFDB; /* Light turquoise */
+    padding: 20px;
+    color: #333; /* Dark text for readability */
+}
+
+aside {
+    background-color: #FFD700; /* Golden yellow */
+    padding: 20px;
+    color: #333; /* Dark text for readability */
+}
+
+footer {
+    grid-row-start: 3;
+    background-color: #4682B4; /* Steel blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
